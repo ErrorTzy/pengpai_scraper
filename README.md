@@ -7,7 +7,7 @@ a scraper that scrapes through all the news in https://www.thepaper.cn/newsDetai
 clone repository
 
 ```
-git clone 
+git clone git@github.com:ErrorTzy/pengpai_scraper.git
 ```
 
 install requirements:
