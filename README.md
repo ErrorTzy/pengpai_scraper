@@ -52,6 +52,8 @@ python3 pengpai_scraper.py -from 10000000 -to 15000000
 | author         | the author of the news article                   | 有来医生                                            | 
 | date           | date string of publish time in yyyy-MM-dd format | 2022-02-08                                          |
 | timestamp      | timestamp in seconds                             | 1644275832085                                       |
-| content        | the content of the news article                  | 有来阅读原文                                        |
+| content        | the content of the news article (only texts are preserved)           | 有来阅读原文                                        |
 | content_length | the length of the content                        | 6                                                   |
 | source_info    | the source of this article                       | 澎湃新闻·澎湃号·湃客                                |
+
+for more complicated requirements, please modify the source code.
