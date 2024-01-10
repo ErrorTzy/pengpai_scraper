@@ -41,3 +41,17 @@ python3 pengpai_scraper.py -from 10000000 -to 15000000
 # and
 #   https://www.thepaper.cn/newsDetail_forward_15000000
 ```
+
+# CSV data structure
+
+| fields         | definition                                       | example                                             |
+| -------------- | ------------------------------------------------ | --------------------------------------------------- |
+| link           | link address of the news article                 | https://www.thepaper.cn/newsDetail_forward_16575845 |
+| number         | the number part in the link                      | 16575845                                            |
+| title          | the title of the news article                    | 冬奥会运动员最易受伤的身体部位，它排第一            |
+| author         | the author of the news article                   | 有来医生                                            | 
+| date           | date string of publish time in yyyy-MM-dd format | 2022-02-08                                          |
+| timestamp      | timestamp in seconds                             | 1644275832085                                       |
+| content        | the content of the news article                  | 有来阅读原文                                        |
+| content_length | the length of the content                        | 6                                                   |
+| source_info    | the source of this article                       | 澎湃新闻·澎湃号·湃客                                |
