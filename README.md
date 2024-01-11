@@ -1,6 +1,7 @@
 # Intro
 
-a scraper that scrapes through all the news in https://www.thepaper.cn/newsDetail_forward_\d+
+an ultra fast scraper that scrapes through all the news in https://www.thepaper.cn/newsDetail_forward_\d+
+scraping through 0 to 25000000 would normally cost less than 12 hours
 
 # Usage
 
@@ -20,6 +21,7 @@ modify parameters in pengpai_scraper.py (optional):
 ```python
 POOL_SIZE = 2 
 # how many workers is fetching the data, default = 2
+# upon testing, you can set up to 100 without being banned from the server
 
 GLOBAL_REQUEST_DELAY = 0 
 # (in seconds) delay before all request, default = 0
